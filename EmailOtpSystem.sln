@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailOtpSystemApi", "EmailO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailOtpSystemApiTest", "EmailOtpSystemApiTest\EmailOtpSystemApiTest.csproj", "{AA32DEC2-C68A-4F62-A97A-5A22E49963F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailOtySystemStandAloneApp", "EmailOtySystemStandAloneApp\EmailOtySystemStandAloneApp.csproj", "{6893D9DD-A2F9-4BD4-9EA5-67A3CD80EB2A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{AA32DEC2-C68A-4F62-A97A-5A22E49963F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA32DEC2-C68A-4F62-A97A-5A22E49963F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA32DEC2-C68A-4F62-A97A-5A22E49963F2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6893D9DD-A2F9-4BD4-9EA5-67A3CD80EB2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6893D9DD-A2F9-4BD4-9EA5-67A3CD80EB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6893D9DD-A2F9-4BD4-9EA5-67A3CD80EB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6893D9DD-A2F9-4BD4-9EA5-67A3CD80EB2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
