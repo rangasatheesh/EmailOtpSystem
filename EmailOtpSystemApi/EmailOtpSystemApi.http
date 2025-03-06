@@ -1,0 +1,6 @@
+@EmailOtpSystemApi_HostAddress = http://localhost:5190
+
+GET {{EmailOtpSystemApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

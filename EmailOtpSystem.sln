@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailOtpSystemApi", "EmailOtpSystemApi\EmailOtpSystemApi.csproj", "{5867112F-FAD0-42E1-96C6-C6E67F7D20F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailOtpSystemApiTest", "EmailOtpSystemApiTest\EmailOtpSystemApiTest.csproj", "{AA32DEC2-C68A-4F62-A97A-5A22E49963F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5867112F-FAD0-42E1-96C6-C6E67F7D20F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5867112F-FAD0-42E1-96C6-C6E67F7D20F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5867112F-FAD0-42E1-96C6-C6E67F7D20F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5867112F-FAD0-42E1-96C6-C6E67F7D20F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA32DEC2-C68A-4F62-A97A-5A22E49963F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA32DEC2-C68A-4F62-A97A-5A22E49963F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA32DEC2-C68A-4F62-A97A-5A22E49963F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA32DEC2-C68A-4F62-A97A-5A22E49963F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6909F4E-5F63-4DCA-BA7F-3BDE47C51BCD}
+	EndGlobalSection
+EndGlobal
