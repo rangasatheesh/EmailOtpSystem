@@ -116,9 +116,9 @@ namespace EmailOtpSystemApi.Services
                 };
 
                 using (var client = new MailKit.Net.Smtp.SmtpClient())
-                {
-                    //Conside have the correct SMTP server details and port info.
+                {                    
                     return true;
+                    //Consider we have the correct SMTP server details and port info.
                     // connect the SMTP server 
                     //await client.ConnectAsync(_smtpServer, 587, false);
                     // Authenticate with SMTP
