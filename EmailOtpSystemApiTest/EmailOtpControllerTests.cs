@@ -51,7 +51,7 @@ public class EmailOtpServiceTests
     {
         // Arrange
         var email = "rangatest@gov.dso.org.sg";
-        var otp = "123456"; // Valid OTP
+        var otp = "333333"; // Valid OTP
         _mockEmailOtpService.Setup(service => service.ValidateOtp(email, otp))
             .Returns(StatusConstants.STATUS_OTP_OK);
 
@@ -68,7 +68,7 @@ public class EmailOtpServiceTests
     {
         // Arrange
         var email = "rangatest@gov.dso.org.sg";
-        var otp = "000000"; // Invalid OTP
+        var otp = "555555"; // Invalid OTP
         _mockEmailOtpService.Setup(service => service.ValidateOtp(email, otp))
             .Returns(StatusConstants.STATUS_OTP_FAIL);
 
@@ -85,7 +85,7 @@ public class EmailOtpServiceTests
     {
         // Arrange
         var email = "rangatest@gov.dso.org.sg";
-        var otp = "123456"; // OTP
+        var otp = "999999"; // OTP
         _mockEmailOtpService.Setup(service => service.ValidateOtp(email, otp))
             .Returns(StatusConstants.STATUS_OTP_TIMEOUT);
 
