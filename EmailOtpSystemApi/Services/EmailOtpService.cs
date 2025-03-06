@@ -8,7 +8,7 @@ namespace EmailOtpSystemApi.Services
 {
     public class EmailOtpService : IEmailOtpService
     {
-        // Here will store the User Email and TimeStamp,OTP and Number attempts triggered by the user.
+        // Here will store the User Email and TimeStamp,OTP and Number attempts triggered by the user ranga.
         private readonly ConcurrentDictionary<string, (string otp, DateTime timestamp, int attempts)> _userOtpData
             = new ConcurrentDictionary<string, (string, DateTime, int)>();
 
