@@ -1,4 +1,6 @@
 using EmailOtpSystemApi.Services;
+using EmailOtpSystemApi.Validators;
+using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +12,8 @@ builder.Services.AddSingleton<IEmailOtpService, EmailOtpService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
+// Register FluentValidation
+builder.Services.AddValidatorsFromAssemblyContaining<EmailRequestValidator>();
 
 var app = builder.Build();
 
